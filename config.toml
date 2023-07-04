@@ -1,0 +1,55 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-tw'
+title = 'My New Hugo Site'
+buildDrafts = false
+theme = "PaperMod"
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "tags"
+
+url = "/tags/"
+
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+
+name = "Categories"
+
+url = "/categories/"
+
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+
+name = "Archives"
+
+url = "/archives/"
+
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "Me"
+subtitle ="..."
+imageUrl = "https://media2.giphy.com/media/3o85xvnSxCKJZaSYmI/giphy.webp?cid=ecf05e47g2y2tf5uuegy4cjik36nu5os9ovp8fdrjhwhgsbh&ep=v1_gifs_search&rid=giphy.webp&ct=g"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "yeet"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/KoalaWill002"
+
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[params.cover]
+linkFullmages = true
