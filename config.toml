@@ -41,10 +41,11 @@ imageWidth = 120
 imageHeight = 120
 imageTitle = "yeet"
 
-[[params.profileMode.button]]
+[[params.profileMode.buttons]]
 name = "Blog"
 url = "/posts/"
-[[params.profileMode.button]]
+
+[[params.profileMode.buttons]]
 name = "Categories"
 url = "/categories/"
 
