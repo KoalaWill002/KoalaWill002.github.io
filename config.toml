@@ -41,6 +41,13 @@ imageWidth = 120
 imageHeight = 120
 imageTitle = "yeet"
 
+[[params.profileMode.button]]
+name = "Blog"
+url = "/posts/"
+[[params.profileMode.button]]
+name = "Categories"
+url = "/categories/"
+
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/KoalaWill002"
