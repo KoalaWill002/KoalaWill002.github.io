@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://koalawill002.github.io//'
 languageCode = 'zh-tw'
 title = 'My New Hugo Site'
 buildDrafts = false
